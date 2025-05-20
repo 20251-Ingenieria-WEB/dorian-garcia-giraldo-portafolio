@@ -17,7 +17,7 @@ const LeftMenu = () => {
           />
           
         </div>
-        <h1 className="text-xl font-bold text-gray-800 mb-1">Dorian García G</h1>
+        <h1 className="text-xl font-bold text-gray-800 mb-1">Dorian García G.</h1>
         <p className="text-sm text-gray-600">Frontend Developer</p>
       </div>
 
