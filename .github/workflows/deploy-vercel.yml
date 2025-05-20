@@ -40,11 +40,11 @@ jobs:
         run: npm install -g vercel # Asegúrate de que esta sea la versión más reciente si tienes problemas.
 
       - name: pull Vercel Environment Variables # <--- ¡Aquí está el cambio clave!
-        run: vercel pull --yes --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel pull --yes --token=${{ secrets.VERCEL_TOKEN_HV }}
         env: # <--- Añade este bloque 'env' aquí
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Deploy to Vercel
-        run: vercel deploy --no-wait --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --no-wait --token=${{ secrets.VERCEL_TOKEN_HV }}
        
