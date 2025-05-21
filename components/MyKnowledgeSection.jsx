@@ -1,4 +1,4 @@
-import React from 'react';
+
 import KnowledgeItem from './KnowledgeItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faObjectGroup, faCameraRetro, faBullhorn } from '@fortawesome/free-solid-svg-icons';

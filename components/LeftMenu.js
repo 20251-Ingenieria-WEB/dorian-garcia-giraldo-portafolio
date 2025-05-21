@@ -10,15 +10,15 @@ const LeftMenu = () => {
         {/* Sección de perfil */}
         <div className="profile text-center mb-8">
         <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-md border-4 border-white mb-4">
-          <img
+          <img 
             src="/images/dor.jpg" 
             alt="Profile" 
             className="w-full h-full object-cover"
           />
           
         </div>
-        <h1 className="text-xl font-bold text-gray-800 mb-1">Dorian García G.</h1>
-        <p className="text-sm text-gray-600">Frontend Developer.</p>
+        <h1 className="text-xl font-bold text-gray-800 mb-1">Dorian García</h1>
+        <p className="text-sm text-gray-600">Frontend Developer</p>
       </div>
 
        {/* Información de contacto */}

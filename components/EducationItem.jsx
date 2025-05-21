@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const EducationItem = ({ title, degree, duration, description }) => {
   return (

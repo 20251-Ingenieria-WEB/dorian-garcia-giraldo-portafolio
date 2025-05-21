@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HeroSection from './HeroSection';
 import MyKnowledgeSection from './MyKnowledgeSection';
 import EducationSection from './EducationSection';

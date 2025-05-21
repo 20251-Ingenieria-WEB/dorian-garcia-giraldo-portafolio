@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PortfolioItem from './PortfolioItem';
 
 const PortfolioSection = () => {

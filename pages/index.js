@@ -1,6 +1,6 @@
-import LeftMenu from './components/LeftMenu';
-import MainContents from './components/MainContents';
-import RightMenu from './components/RightMenu';
+import LeftMenu from '../components/LeftMenu';
+import MainContents from '../components/MainContents';
+import RightMenu from '../components/RightMenu';
 
 export default function Home() {
   return (
