@@ -18,7 +18,7 @@ const LeftMenu = () => {
           
         </div>
         <h1 className="text-xl font-bold text-gray-800 mb-1">Dorian García</h1>
-        <p className="text-sm text-gray-600">Frontend Developer</p>
+        <p className="text-sm text-gray-600">Frontend Developer and Xray-Technologist</p>
       </div>
 
        {/* Información de contacto */}
@@ -61,6 +61,18 @@ spoken languages</h2>
         <h2 className="text-lg font-semibold mb-4 text-gray-800">programming-languages</h2>
         <div className="space-y-3">
           {['JavaScript', 'React', 'Next.js', 'Tailwind CSS'].map((tech) => (
+            <div key={tech} className="flex items-center">
+              <div className="w-2 h-2 rounded-full bg-yellow-400 mr-2"></div>
+              <span className="text-gray-700">{tech}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="programming-languages">
+        <h2 className="text-lg font-semibold mb-4 text-gray-800">Xray experience</h2>
+        <div className="space-y-3">
+          {['CT', 'RMN', 'Conventional RX', 'mammography'].map((tech) => (
             <div key={tech} className="flex items-center">
               <div className="w-2 h-2 rounded-full bg-yellow-400 mr-2"></div>
               <span className="text-gray-700">{tech}</span>

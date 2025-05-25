@@ -1,7 +1,7 @@
 
 import KnowledgeItem from './KnowledgeItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faObjectGroup, faCameraRetro, faBullhorn } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faObjectGroup, faCameraRetro, faBullhorn, faXRay, faCircleRadiation } from '@fortawesome/free-solid-svg-icons';
 
 const MyKnowledgeSection = () => {
   return (
@@ -14,13 +14,15 @@ const MyKnowledgeSection = () => {
         <br />
         Tools: Git, GitHub, Vercel, Figma (for UI/UX collaboration)
         <br />
-        Agile methodologies & teamwork.
+        I am trained in patient care, equipment operation, image processing, and radiation safety protocols.
       </p>
       <div className="knowledge-grid grid grid-cols-2 md:grid-cols-4 gap-5">
         <KnowledgeItem icon={faCode} title="Web Development" description="" />
         <KnowledgeItem icon={faObjectGroup} title="UI/UX Design" description="" />
         <KnowledgeItem icon={faCameraRetro} title="Photography" description="" />
-        <KnowledgeItem icon={faBullhorn} title="Advertising" description="" />
+        <KnowledgeItem icon={faCircleRadiation} title="X-ray Technologist" description="" />
+        
+        
       </div>
     </section>
   );

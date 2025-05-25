@@ -8,8 +8,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const socialLinks = [
-    { icon: faLinkedinIn, url: '#', label: 'LinkedIn' },
-    { icon: faGithub, url: '#', label: 'GitHub' },
+    { icon: faLinkedinIn, url: 'https://linkedin.com/in/dorian-garcia-8a9451210', label: 'LinkedIn' },
+    { icon: faGithub, url: 'https://github.com/20251-Ingenieria-WEB/dorian-garcia-giraldo-portafolio', label: 'GitHub' },
     { icon: faTwitter, url: '#', label: 'Twitter' },
     { icon: faCodepen, url: '#', label: 'CodePen' }
   ];
